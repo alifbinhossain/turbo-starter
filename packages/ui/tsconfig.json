@@ -1,4 +1,10 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["./index.tsx"] // no other project in the monorepo uses this alias
+    }
+  },
   "extends": "tsconfig/nextjs.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]

@@ -20,6 +20,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "framer-motion": "^7.3.2"
+  },
   "packageManager": "yarn@1.22.19"
 }
